@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" method="POST">
+            <h1>Form</h1>
+            <div class="container">
+                <label for="">Nama Pelanggan</label>
+                <input type="text" name="name" id="name" >
+                <p id="error_name"></p>
+                <label for="">Email </label>
+                <input type="text" name="email" id="email">
+                <p id="error_email"></p>
+                <label for="">Jam Keberangkatan</label>
+                <input type="text" name="" id="jam">
+                <p id="error_jam"></p>
+                <label for="">Tujuan Keberangkatan</label>
+                <input type="text" name="tujuan" id="tujuan">
+                <p id="error_tujuan"></p>
+                <label for="">Jumlah Tiket</label>
+                <input type="text" name="tiket" id="tiket">
+                <p id="error_tiket"></p>
+                <button type="submit" value="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="container_hasil">
+        <h1 id="hasil"></h1>
+        <p id="hasil_nama"></p>
+        <p id="hasil_email"></p>
+        <p id="hasil_jam"></p>
+        <p id="hasil_tujuan"></p>
+        <p id="hasil_tiket"></p>
+    </div>
+    <script src="formvalidasi.js"></script>
+</body>
+</html>
